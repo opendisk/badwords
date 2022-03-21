@@ -17,7 +17,7 @@ include 'vendor/autoload.php';
 
 use Opendisk\Helper\Badwords;
 
-$keyword = 'kamu suka nonton bokep';
+$keyword = 'kamu sering nonton bokep';
 
 $results1 = Badwords::isDirty($keyword); //when string contains bad words, it returns true
 
@@ -25,11 +25,12 @@ $results2 = Badwords::strip($keyword); //when string contains bad words, it repl
 
 echo '<pre>';
 print_r($results1);
+echo '<br>';
 print_r($results2);
 ```
 
 **Result:** 
 ```
-Array
-
+1
+kamu sering nonton b*k*p
 ```
