@@ -15,13 +15,13 @@ composer require opendisk/badwords
 
 include 'vendor/autoload.php';
 
-use Opendisk\Helper\Badwords;
+use Opendisk\Helper\BadWords;
 
 $keyword = 'kamu sering nonton bokep';
 
-$results1 = Badwords::isDirty($keyword); //when string contains bad words, it returns true
+$results1 = BadWords::isDirty($keyword); //when string contains bad words, it returns true
 
-$results2 = Badwords::strip($keyword); //when string contains bad words, it replaces vocal chars in bad word with asterix
+$results2 = BadWords::strip($keyword); //when string contains bad words, it replaces vocal chars in bad word with asterix
 
 echo '<pre>';
 print_r($results1);
