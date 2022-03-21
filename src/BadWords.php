@@ -2,7 +2,7 @@
 
 namespace Opendisk\Helper;
 
-class Badwords
+class BadWords
 {
     public static function isDirty($string)
     {
