@@ -1,0 +1,23 @@
+{
+    "name": "opendisk/badwords",
+    "description": "A php script to filter out bad words",
+    "keywords": ["Badwords", "Filter Word", "Blacklist"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rusmadi",
+            "email": "git@rusmadi.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Opendisk\\Helper\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
